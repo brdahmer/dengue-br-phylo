@@ -3,8 +3,6 @@
 
 Small time-tree philogeny of dengue virus genotype 1 in Brazil.
 ___
-# Methods
-
 ### **Sequence Data and Curation**
 
 Dengue virus genomes from Brazil (≥ 10,000 nt) were retrieved from NCBI Virus (<https://www.ncbi.nlm.nih.gov/labs/virus/vssi/>) at the species level (*Orthoflavivirus denguei*), with no restriction on collection date, host, or curator-assigned completeness flag, yielding 4,261 entries across all four serotypes (DENV-1 2,666; DENV-2 1,408; DENV-3 97; DENV-4 86; 4 records with no serotype designation). Sequences were downloaded in `.fasta` format with accession-only definition lines, and metadata as a separate `.csv` table retaining all available fields.
@@ -93,9 +91,6 @@ seqkit stats 02_qc/qc_passed.fasta 02_qc/aligned_qc_passed.fasta
 `python3 scripts/verify_outliers.py`
 
 ___
-
-# REPORT
-
 ### Dataset, QC, and sampling
 
 The NCBI Virus dataset (Brazil, >10,000 nt) returned 4,261 records across four serotypes, 2,666 of which were DENV-1 (62.6%). Curation retained 2,630 of 2,666 (98.6%), wherein one record with >30% non-ACGT characters and 1 with an unparseable date were removed, 22 identical sequences and 12 repeated isolate names were corrected. No record matched a laboratory-derived/passaged filter. Nextclade QC then marked 183 sequences `bad`, 103 `mediocre` (retained) and 2,344 `good`, leaving 2,447 of 2,666 (91.8%) for tree building.
