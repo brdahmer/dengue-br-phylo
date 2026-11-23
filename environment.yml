@@ -1,0 +1,12 @@
+name: denv
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - biopython
+  - seqkit
+  - mafft
+  - iqtree
+  - treetime
+  - nextclade

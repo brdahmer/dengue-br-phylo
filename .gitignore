@@ -1,0 +1,11 @@
+.DS_Store
+RUNBOOK.md
+*.bak
+*.ckp.gz
+*.mldist
+*.bionj
+# regenerable: alignments, ancestral states, Nextclade dataset
+02_qc/aligned_*.fasta
+02_qc/dataset-denv1/
+03_align/*.fasta
+05_timetree/*/ancestral_sequences.fasta

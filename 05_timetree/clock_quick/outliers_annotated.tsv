@@ -1,0 +1,11 @@
+name	given_date	apparent_date	residual	direction	collection_date	date_precision	uf	municipality	clade	length	ambig_frac	nuc_completeness	organization
+OR258460	2022.2616438356165	2038.2989756722363	+4.84	above	2022-04-06	full	MS	Mundo Novo	1V_A.1	10021	0.0000	partial	Pan American Health Organization (PAHO), PHE-Brazil
+OR258487	2022.2616438356165	2039.284314210529	+5.14	above	2022-04-06	full	MS	Coxim	1V_E.1	10021	0.0000	partial	Pan American Health Organization (PAHO), PHE-Brazil
+OR258539	2022.2890410958903	2036.3202285249074	+4.24	above	2022-04-16	full	MS	Chapadao do Sul	1V_E.1	10021	0.0000	partial	Pan American Health Organization (PAHO), PHE-Brazil
+PV205870	2023.045205479452	2007.9643044770546	-4.55	below	2023-01-17	full	ES	Santa Teresa	1V_A	10311	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV205875	2023.0424657534247	2008.3002326084245	-4.45	below	2023-01-16	full	ES	Santa Teresa	1V_A	10278	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV205883	2023.3109589041096	2008.4655915557857	-4.48	below	2023-04-24	full	ES	Mimoso do Sul	1V_A	10250	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV205889	2023.3109589041096	2008.2993865168028	-4.53	below	2023-04-24	full	ES	Mimoso do Sul	1V_A	10253	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV205900	2023.3328767123287	2007.9685705776053	-4.64	below	2023-05-02	full	ES	Sao Gabriel da Palha	1V_A	10283	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV205911	2023.341095890411	2008.4605581989217	-4.49	below	2023-05-05	full	ES	Colatina	1V_A	10299	0.0000	partial	Universidade do Estado da Bahia, DCET-1
+PV682577	2020.4995	1996.7982493593477	-7.15	below	2020	year	-	-	1V_H	10031	0.0000	partial	FACULDADE DE MEDICINA DE SAO JOSE DO RIO PRETO, Departamento de Doencas Dermatologicas, Infecciosas e Parasitarias
