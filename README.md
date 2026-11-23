@@ -97,7 +97,7 @@ The NCBI Virus dataset (Brazil, >10,000 nt) returned 4,261 records across four s
 
 Of the 183 `bad` sequences, 180 (98.4%) failed the missing-data rule ("missingDataThreshold": 1000 Ns, "scoreBias": 100), 174 of
 them on that rule alone (while the other 6 also scored `mediocre` or `bad` on
-frameshifts). The remaining 3 failed on frameshifts or private mutations. The majority of QC losses are concentrated in two submitting groups (175 of 183; 95.6%): USP-Ribeirão Preto lost 98 of 666 sequences (14.7%) and Universidade Feevale lost 77 of 109 (70.6%), likely due to amplicon dropout/regions that failed to amplify. All other submitters together lost 8.
+frameshifts). The remaining 3 failed on frameshifts or private mutations. The majority of QC losses are concentrated in two submitting groups (175 of 183; 95.6%): one lost 98 of 666 sequences (14.7%) and the other lost 77 of 109 (70.6%), likely due to amplicon dropout/regions that failed to amplify. All other submitters together lost 8.
 
 **Table 1. Record Counts After Each Curation Step**
 
