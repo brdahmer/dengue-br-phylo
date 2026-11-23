@@ -3,7 +3,7 @@
 
 Small time-tree philogeny of dengue virus genotype 1 in Brazil.
 ___
-# METHODS
+# Methods
 
 ### **Sequence Data and Curation**
 
@@ -124,7 +124,7 @@ year-month, 2,375 full dates). Representation by federative unit was also unequa
 Estado da Bahia, DCET-1) accounts for 959 of the 2,630 curated sequences
 (36.5%) (Fig. 1).
 
-<img src="06_figures/fig1_sampling.png" width="600">
+<img src="06_figures/fig1_sampling.png" width="800">
 
 ### Lineages and Molecular Clock
 
@@ -152,11 +152,11 @@ Estado da Bahia, DCET-1) accounts for 959 of the 2,630 curated sequences
 
 Root-to-tip regression on the GTR+F+G4 maximum-likelihood tree gave 9.03 x 10^-4 substitutions/site/year (TreeTime; r^2 = 0.551, n = 2,437, root about 1949). Re-estimating branch lengths on the MAFFT alignment with the topology fixed gave 8.79 x 10^-4 (r^2 = 0.52, root about 1947). Re-plotting only the tips from `rtt.csv` with year-only dates at mid-year gave 8.99 x 10^-4 and r^2 = 0.524 (Fig. 2).
 
-<img src="06_figures/fig2_rtt.png" width="600">
+<img src="06_figures/fig2_rtt.png" width="800">
 
 The time-scaled tree (TreeTime, `--clock-filter 4`) estimates the root at 1967.2 (Fig. 3) with a rate of 5.66 x 10^-4 (5.72 x 10^-4 without `--stochastic-resolve`, or `full` vs. `full_stoch`). Both rates are within the range reported for DENV-1, with several co-circulating lineages. 
 
-<img src="06_figures/fig3_timetree.png" width="600">
+<img src="06_figures/fig3_timetree.png" width="800">
 
 However, a small set of records are observably inconsistent. Ten entries were identified as outliers on the Nextclade regression tree (11 on the MAFFT tree), and 13 in the full time-tree runs; PV682577 (1V_H, with a year-only date in 2020, was placed about 24 years too early) and PP234964 (which was assigned a non-1V lineage, 1_III_A.2). Moreover, six records from the state of ES collected in 2023 were labeled as 1V_A, whose divergence match sequences sampled about 15 years earlier and come from the largest submitter in the dataset, suggesting errors in batch-level processing or dating differences, and not real biological issues. Alternatively, the ES outliers could indeed be a real, long-undersampled 1V_A lineage. Finally, the dataset from NCBI Virus reflects sequences and, most importantly, deposits and cannot be read as prevalence of one lineage or another in different states. 
 
